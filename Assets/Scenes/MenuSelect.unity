@@ -420,7 +420,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: 590ea579a09622a4eb3ecfad37009c65, type: 3}
     Volume: 1
 --- !u!114 &82177917
 MonoBehaviour:
@@ -960,7 +960,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: cd1b66102e35c5b4bbb56b48163fbb48, type: 3}
     Volume: 1
 --- !u!114 &203395710
 MonoBehaviour:
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: f404724a6ba65bc41ad5fac54c4bbfcb, type: 3}
     Volume: 1
 --- !u!114 &206794979
 MonoBehaviour:
@@ -1213,6 +1213,8 @@ GameObject:
   - component: {fileID: 227013434}
   - component: {fileID: 227013436}
   - component: {fileID: 227013435}
+  - component: {fileID: 227013437}
+  - component: {fileID: 227013438}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (5)
   m_TagString: Untagged
@@ -1375,7 +1377,59 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 227013438}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 227013437}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &227013437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227013433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 1500
+  m_name: "\uD56B \uC544\uBA54\uB9AC\uCE74\uB178"
+  sprite: {fileID: 21300000, guid: c8a56a126e9919c4ab85c36d54c0e684, type: 3}
+--- !u!114 &227013438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227013433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &242767738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,7 +1911,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: a37562ca03259294a8b9f24990a27349, type: 3}
     Volume: 1
 --- !u!114 &310413372
 MonoBehaviour:
@@ -2459,7 +2513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   price: 1500
   m_name: "\uC544\uC774\uC2A4 \uC544\uBA54\uB9AC\uCE74\uB178"
-  sprite: {fileID: 21300000, guid: 0f3128b4ac476a04a8573ac70a221d57, type: 3}
+  sprite: {fileID: 21300000, guid: 04118aa015fa47a4da976a81204ff09f, type: 3}
 --- !u!1 &442829339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,6 +2698,8 @@ GameObject:
   - component: {fileID: 475212240}
   - component: {fileID: 475212242}
   - component: {fileID: 475212241}
+  - component: {fileID: 475212243}
+  - component: {fileID: 475212244}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (9)
   m_TagString: Untagged
@@ -2806,7 +2862,59 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 475212244}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 475212243}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &475212243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475212239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2500
+  m_name: "\uD56B \uCE74\uD398\uBAA8\uCE74"
+  sprite: {fileID: 21300000, guid: 4061906df12ebdc4eb3735ce1cfdb196, type: 3}
+--- !u!114 &475212244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475212239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &489787921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,7 +2964,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: e847e5c727eba4d41937bd4f84b3c6f1, type: 3}
     Volume: 1
 --- !u!114 &489787924
 MonoBehaviour:
@@ -2961,7 +3069,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: 6292fc71f0cfb3e47ac22397e82881a9, type: 3}
     Volume: 1
 --- !u!114 &507350414
 MonoBehaviour:
@@ -3028,6 +3136,8 @@ GameObject:
   - component: {fileID: 558232950}
   - component: {fileID: 558232948}
   - component: {fileID: 558232949}
+  - component: {fileID: 558232951}
+  - component: {fileID: 558232952}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (7)
   m_TagString: Untagged
@@ -3136,7 +3246,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 558232952}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 558232951}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &558232949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3191,6 +3325,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 20}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &558232951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558232947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2500
+  m_name: "\uCE74\uD478\uCE58\uB178"
+  sprite: {fileID: 21300000, guid: 662de67f8fbcebc409849f2b2a59d173, type: 3}
+--- !u!114 &558232952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558232947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &594109822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,7 +3402,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: 54e4335122c5ac14a999abfb78da737d, type: 3}
     Volume: 1
 --- !u!114 &594109825
 MonoBehaviour:
@@ -3667,8 +3829,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dd6ef63e058e8c740806872ed9820a09, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3913,6 +4075,8 @@ GameObject:
   - component: {fileID: 664919014}
   - component: {fileID: 664919012}
   - component: {fileID: 664919013}
+  - component: {fileID: 664919015}
+  - component: {fileID: 664919016}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (2)
   m_TagString: Untagged
@@ -4021,7 +4185,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 664919016}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 664919015}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &664919013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4076,6 +4264,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 360}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &664919015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664919011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2000
+  m_name: "\uCCAD\uD3EC\uB3C4\uC5D0\uC774\uB4DC"
+  sprite: {fileID: 21300000, guid: 9e493fb1e9a0a3b47ba8c14dc281ea5c, type: 3}
+--- !u!114 &664919016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664919011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &676723261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,8 +4593,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9b04d110c71853b4ba8290b38e077c84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4425,6 +4641,8 @@ GameObject:
   - component: {fileID: 719870121}
   - component: {fileID: 719870119}
   - component: {fileID: 719870120}
+  - component: {fileID: 719870122}
+  - component: {fileID: 719870123}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (4)
   m_TagString: Untagged
@@ -4533,7 +4751,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 719870123}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 719870122}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &719870120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4588,6 +4830,34 @@ RectTransform:
   m_AnchoredPosition: {x: 280, y: 360}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &719870122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719870118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2500
+  m_name: "\uC544\uC774\uC2A4 \uCE74\uD398\uBAA8\uCE74"
+  sprite: {fileID: 21300000, guid: 431ce4904733a864cae2af8e29e49b79, type: 3}
+--- !u!114 &719870123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719870118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &790443715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,8 +5239,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f50514c5727627b44a14da219e80cea5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5600,7 +5870,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: 8360100032ca7df4bbb4379bbca099ac, type: 3}
     Volume: 1
 --- !u!114 &928384402
 MonoBehaviour:
@@ -5788,8 +6058,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ac25e1ad9b82cb548ae9ab8a4fcbbfbc, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6294,7 +6564,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: 87178ececd2cad24fbbe0d6fcd55f541, type: 3}
     Volume: 1
 --- !u!114 &1059847214
 MonoBehaviour:
@@ -6623,6 +6893,8 @@ GameObject:
   - component: {fileID: 1130371407}
   - component: {fileID: 1130371405}
   - component: {fileID: 1130371406}
+  - component: {fileID: 1130371408}
+  - component: {fileID: 1130371409}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (8)
   m_TagString: Untagged
@@ -6731,7 +7003,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1130371409}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130371408}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1130371406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6786,6 +7082,34 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: 20}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1130371408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130371404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2500
+  m_name: "\uD56B \uCE74\uD398\uB77C\uB5BC"
+  sprite: {fileID: 21300000, guid: eb860ca9369ffbc4b87abeee84fae6e1, type: 3}
+--- !u!114 &1130371409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130371404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &1136549028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7249,8 +7573,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 2000
-  m_name: " \uCE74\uD398 \uB77C\uB5BC"
-  sprite: {fileID: 21300000, guid: 94640df399c4da14b8bcf08059f4edb6, type: 3}
+  m_name: "\uC790\uBABD\uC5D0\uC774\uB4DC"
+  sprite: {fileID: 21300000, guid: f30a7a11cf1351441a9799358c3b32e0, type: 3}
 --- !u!114 &1183567421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8825,8 +9149,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b8ce14719797bd946a74adda2f9ef47f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8952,6 +9276,8 @@ GameObject:
   - component: {fileID: 1657297036}
   - component: {fileID: 1657297034}
   - component: {fileID: 1657297035}
+  - component: {fileID: 1657297037}
+  - component: {fileID: 1657297038}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (6)
   m_TagString: Untagged
@@ -9060,7 +9386,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1657297038}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1657297037}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1657297035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9115,6 +9465,34 @@ RectTransform:
   m_AnchoredPosition: {x: -140, y: 20}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1657297037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657297033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2000
+  m_name: "\uD56B\uCD08\uCF54"
+  sprite: {fileID: 21300000, guid: 228dcfe9e113feb48b38046b9fa6bf1f, type: 3}
+--- !u!114 &1657297038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657297033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &1662240461
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,7 +9542,7 @@ MonoBehaviour:
   Alias: 
   Data:
     Duration: 0
-    Target: {fileID: 8300000, guid: 37018729948c3e04b9d18723ce346157, type: 3}
+    Target: {fileID: 8300000, guid: c43d5ae7f92ecf74fb5728d69c4abf40, type: 3}
     Volume: 1
 --- !u!114 &1662240464
 MonoBehaviour:
@@ -9447,8 +9825,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0bd238a35a7b09e49a6b401893337362, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9676,8 +10054,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c4db503cfe228fc409d6844397a29c5e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9830,8 +10208,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 34c154cbe22295d46b6092dbb79a8314, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10192,8 +10570,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 694dff80374ee064f9a897c28bb66db0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10427,8 +10805,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1796e38abbf88c24e81a403ce279cb55, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10679,6 +11057,8 @@ GameObject:
   - component: {fileID: 2060567434}
   - component: {fileID: 2060567432}
   - component: {fileID: 2060567433}
+  - component: {fileID: 2060567435}
+  - component: {fileID: 2060567436}
   m_Layer: 5
   m_Name: Tap Button (LeanButton) (3)
   m_TagString: Untagged
@@ -10787,7 +11167,31 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060567436}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: ToNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2060567435}
+        m_TargetAssemblyTypeName: MenuInfo, Assembly-CSharp
+        m_MethodName: init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2060567433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10842,6 +11246,34 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: 360}
   m_SizeDelta: {x: 60, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2060567435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060567431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6245e621e75e5438fee60f7a55d313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2500
+  m_name: "\uC544\uC774\uC2A4 \uCE74\uD398\uB77C\uB5BC"
+  sprite: {fileID: 21300000, guid: f4ca38c02f02cd44aa00d23719e09bb5, type: 3}
+--- !u!114 &2060567436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060567431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ca6964163efb842aac86685bfb6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Quantity
 --- !u!1 &2063724500
 GameObject:
   m_ObjectHideFlags: 0
